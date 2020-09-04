@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form>
+      <button id="openModalBtn">Open Modal Window</button>
+      <input type="text" id="text" name="check" />
+      <p><input type="radio" id="radio" name="check"  />Нажми</p>
+      <select id="choise" name="check">
+        <option disabled selected>Выбери</option>
+        <option value="1">1</option>
+        <option value="2">2</option>
+      </select>
+    </form>
+    <div class="modal-wrapper">
+      <div class="modal">
+        <button id="closeBtn">Close</button>
+        <div class="value"></div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
